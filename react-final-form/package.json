@@ -1,0 +1,24 @@
+{
+  "name": "react-final-form-simple-example",
+  "description": "This example uses no custom field rendering techniques, only default input, select, and textarea inputs.",
+  "version": "0.0.90",
+  "dependencies": {
+    "styled-components": "latest",
+    "react-fontawesome": "latest",
+    "react-final-form": "latest",
+    "react-dom": "latest",
+    "react": "latest",
+    "final-form": "latest",
+    "downshift": "1.28.0",
+    "match-sorter": "2.2.0"
+  },
+  "devDependencies": {
+    "react-scripts": "1.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
