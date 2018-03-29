@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.flex {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	width: 920px;
+	margin: 0 auto;
+}
+
+.thumbnail {
+	width: 30%;
+	border: 1px solid #ebebeb;
+	padding: 12px 10px;
+	border-radius: 3px;
+	margin: 0 10px 10px 0;
+	box-sizing: border-box;
+}
+
+.thumbnail img {
+	width: 100%;
+}
+
+.thumbnail h2 {
+	margin: 10px 0;	
+	font-size: 1.2em;
+	border-bottom: 1px dashed #ccc;
+}
+
+.thumbnail h2:first-letter {
+	color: red;
+}
+
+.data {
+	font-size: 0.7em;
+}
+
+button.harvester {
+	margin: 10px;
+	background-color: #4379b2;
+	color: #fff;
+	font-size: 12px;
+	border: 0;
+	border-radius: 3px;
+	padding: 7px;
+}
